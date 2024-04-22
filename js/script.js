@@ -1,4 +1,4 @@
-function agregarImg(datos) {
+defunction agregarImg(datos) {
     console.log("estoy en agregar img" );
     console.log(datos);
     const div = document.querySelector("#peliculas"); 
@@ -43,6 +43,6 @@ function agregarImg(datos) {
     const data = await response.json();
     agregarImg(data);
   };
-  const datos = request("./peliculas.json");
+  const datos = request("https://gabrielarincon87.github.io/webApp/peliculas.json");
  
   
