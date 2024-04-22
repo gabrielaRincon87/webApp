@@ -23,7 +23,7 @@ main {
     .seccionPpal{
 
         color:white;
-        background:linear-gradient(to right top, #0000008a, #0000008a), url(/pictures/backgroundImage.jpg);
+        background:linear-gradient(to right top, #0000008a, #0000008a), url(./../pictures/backgroundImage.jpg);
         background-size: cover;
         background-position: center;
         height: 90vh;
@@ -149,7 +149,7 @@ h2 {
 }
 .bodyRegistro{
     height: 90%;
-    background:linear-gradient(to right top, #24242473,#24242473),(url(/pictures/bg-register.jpg));
+    background:linear-gradient(to right top, #24242473,#24242473),(url(./../pictures/bg-register.jpg));
     background-size: cover;
     background-position: center;
 }
