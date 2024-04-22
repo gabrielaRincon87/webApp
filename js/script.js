@@ -1,4 +1,4 @@
-defunction agregarImg(datos) {
+function agregarImg(datos) {
     console.log("estoy en agregar img" );
     console.log(datos);
     const div = document.querySelector("#peliculas"); 
