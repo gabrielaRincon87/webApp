@@ -138,6 +138,22 @@ h2 {
     text-align: center;
     
 }
+.seccion-form
+{background-color: #79728a8a;
+    text-align: center;
+    height: 80%;
+    margin: 10px 200px;
+    outline: none;
+    padding: 10px 300px;
+
+}
+.bodyRegistro{
+    height: 90%;
+    background:linear-gradient(to right top, #24242473,#24242473),(url(/pictures/bg-register.jpg));
+    background-size: cover;
+    background-position: center;
+}
+   
 .inputBuscar { border: 2px solid white;
     border-radius: 25px;
     color: #000000;
@@ -146,7 +162,8 @@ h2 {
     margin: 20px 0px;
     outline: none;
     padding: 0px 20px;
-    width: 500px;}
+    width: 300px;
+text-align: center;}
 .searchButtom{
     background-color:#9f3647;
     display: inline-block;
@@ -166,7 +183,194 @@ h2 {
          transform: scale(0.95);
          box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
      }
-        }
+    }
+.registrate{
+    text-decoration: none;
+}
+/* ==========================================
+**************** CONTENEDORES ***************
+=============================================*/
+
+.container,
+.nav-container,
+.footer-container,
+.main-container {
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+}
+
+
+.form-container {
+    width: 50%;
+}
+
+
+
+/* ==========================================
+****************** FLEXBOX *****************
+=============================================*/
+.flex {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* row nowrap */
+.flexrow {
+    flex-wrap: nowrap !important;
+}
+
+/* row wrap */
+.flexrow-wrap {
+    flex-wrap: wrap !important;
+}
+
+/* row wrap-reverse */
+.flexrow-wreverse {
+    flex-wrap: wrap-reverse !important;
+}
+
+/* column nowrap */
+.flexcol {
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+}
+
+/* column wrap */
+.flexcol-wrap {
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+}
+
+/* column wrap-reverse */
+.flexcol-wreverse {
+    flex-direction: column-reverse !important;
+    flex-wrap: wrap-reverse !important;
+}
+
+
+/* ==========================================
+******************** GRID *******************
+=============================================*/
+
+/* NOTA: PARA LOS PUNTOS DE CORTE RESPONSIVE
+VER LOS SELECTORES GRID DEL FINAL EN MEDIAQUERIES */
+
+/* Para el contenedor padre */
+.grid {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 10px !important;
+    margin: 0px 0 !important;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* Para inicializar los contenedores hijos*/
+.col {
+    grid-column: span 12 / span 12;
+    padding: 10px;
+}
+
+/* Columnas base fijas (Si no se desea especificar dispositivo)*/
+.col-1 {
+    grid-column: span 1 / span 1;
+}
+
+.col-2 {
+    grid-column: span 2 / span 2;
+}
+
+.col-3 {
+    grid-column: span 3 / span 3;
+}
+
+.col-4 {
+    grid-column: span 4 / span 4;
+}
+
+.col-5 {
+    grid-column: span 5 / span 5;
+}
+
+.col-6 {
+    grid-column: span 6 / span 6;
+}
+
+.col-7 {
+    grid-column: span 7 / span 7;
+}
+
+.col-8 {
+    grid-column: span 8 / span 8;
+}
+
+.col-9 {
+    grid-column: span 9 / span 9;
+}
+
+.col-10 {
+    grid-column: span 10 / span 10;
+}
+
+.col-11 {
+    grid-column: span 11 / span 11;
+}
+
+.col-12 {
+    grid-column: span 12 / span 12;
+}
+
+.container
+{
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+}
+    /* card */
+.card {
+    padding: 5px;
+    background-color: #181419;
+    border-radius: 5px !important;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.231);
+    width: 100% !important;
+    height: 90% !important;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 0 0 0px 5px #ffffff,
+    0 0 0 2px #ffffff8f inset;
+    background-color:  #9f3647;
+    transition: 0.5s;
+}
+
+     .img-pelis {
+        object-fit: cover; 
+        max-width: 300px;
+        height: 300px ;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.231);
+        
+    } 
+     #peliculas 
+     { div {
+         p {
+        font-size: 1rem;
+        font-weight: bold;
+        color:aliceblue;
+        
+    
+     }
+    }
+    }
+
+
+
+    
     @keyframes muevete {
             0% { transform: translate(0, 0) rotate(0deg); }
             25% { transform: translate(5px, 5px) rotate(5deg); }

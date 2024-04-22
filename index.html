@@ -44,10 +44,11 @@
                 <br>
                 <h2>  ¿Que estas Buscando para ver? </h2>
                 <br>
-<form>
-    <input type="text" class='inputBuscar' placeholder="Buscar..">
-    <input type="submit" value="Buscar" class="searchButtom">
-</form>
+    <input type="text" class='inputBuscar' id="inputBuscar" placeholder="Buscar..">
+    <input type="submit" value="Buscar" id="botonBuscar" class="searchButtom" onclick="buscarPelicula()">
+<div id="busqueda">
+    
+</div>
             </section>
        
 
@@ -57,7 +58,7 @@
     <script>
         AOS.init();
       </script>
-    <script src="../js/scripts.js" type="text/javascript"></script>
+    <script src="./js/buscar.js" type="text/javascript"></script>
 </body>
 
 </html>
