@@ -43,6 +43,6 @@ function agregarImg(datos) {
     const data = await response.json();
     agregarImg(data);
   };
-  const datos = request("http://127.0.0.1:5500/peliculas.json");
+  const datos = request("./peliculas.json");
  
   
